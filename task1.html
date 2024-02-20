@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular JS First Application</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Sample Application</h1>
+
+            <div ng-app="">
+                <div class="input-group">
+                    <p>Enter your Name: <input type="text" ng-model="model"></p>
+                </div>
+                <div class="input-group">
+                    <p>Enter your age: <input type="text" ng-model="age"></p>
+                </div>
+                <div class="result">
+                    <p>Hello {{ model }}!</p>
+                    <p>Your age is {{ age }}.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+</body>
+</html>

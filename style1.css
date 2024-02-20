@@ -1,0 +1,46 @@
+body {
+    background-color: green;
+    font-family: Arial, sans-serif; /* Optional: Set the font family */
+    color: white; /* Optional: Set text color to contrast with green background */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center the content */
+}
+
+h1 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.input-group {
+    margin-bottom: 10px; /* Add space between input groups */
+}
+
+.input-group input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-group input:focus {
+    outline: none;
+}
+
+.input-group input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    color: white;
+}
+
+.result {
+    margin-top: 20px; /* Add space above the result */
+}
